@@ -441,7 +441,9 @@
     {
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
-        "layer0.texture": "Theme - My Default/common/dark/tab_close_hidden.png",
+        // "layer0.texture": "Theme - My Default/common/dark/tab_close.png",
+        "layer0.texture": "Theme - My Default/common/dark/tab_close_thin.png",
+        // "layer0.texture": "Theme - My Default/common/dark/tab_close_hidden.png",
         "content_margin": [10, 9]
     },
     {
@@ -449,6 +451,7 @@
         "settings": ["show_tab_close_buttons"],
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
         "layer0.texture": "Theme - My Default/common/dark/tab_close.png",
+        "layer0.texture": "Theme - My Default/common/dark/tab_close_thin.png",
         "content_margin": [10, 9]
     },
     {
@@ -456,6 +459,7 @@
         "settings": ["show_tab_close_buttons"],
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "layer0.texture": "Theme - My Default/common/dark/tab_close.png",
+        "layer0.texture": "Theme - My Default/common/dark/tab_close_thin.png",
         "content_margin": [10, 9]
     },
     {
@@ -487,6 +491,7 @@
         "class": "tab_close_button",
         "attributes": ["hover"],
         "layer0.texture": "Theme - My Default/common/dark/tab_close.png",
+        "layer0.texture": "Theme - My Default/common/dark/tab_close_thin.png",
     },
     {
         "class": "tab_close_button",
@@ -509,35 +514,41 @@
     {
         "class": "scroll_tabs_left_button",
         "layer0.texture": "Theme - My Default/common/light/tab_scroll_left.png",
-        "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
+        // "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
+        "layer0.opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
         "content_margin": [9, 10]
     },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
-        "layer0.opacity": { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" }
+        "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" }
+        // "layer0.opacity": { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" }
     },
     {
         "class": "scroll_tabs_right_button",
         "layer0.texture": "Theme - My Default/common/light/tab_scroll_right.png",
-        "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
+        // "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
+        "layer0.opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
         "content_margin": [9, 10]
     },
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
-        "layer0.opacity": { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" }
+        "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" }
+        // "layer0.opacity": { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" }
     },
     {
         "class": "show_tabs_dropdown_button",
         "layer0.texture": "Theme - My Default/common/light/tab_dropdown.png",
-        "layer0.opacity": { "target": 0.7, "speed": 4.0, "interpolation": "smoothstep" },
+        // "layer0.opacity": { "target": 0.7, "speed": 4.0, "interpolation": "smoothstep" },
+        "layer0.opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
         "content_margin": [9, 10]
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
-        "layer0.opacity": { "target": 0.9, "speed": 4.0, "interpolation": "smoothstep" }
+        "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" }
+        // "layer0.opacity": { "target": 0.9, "speed": 4.0, "interpolation": "smoothstep" }
     },
 
 // Quick Panel
