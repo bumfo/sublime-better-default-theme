@@ -1,0 +1,348 @@
+# [PackageDev] target_format: plist, ext: tmTheme
+name: My Default
+semanticClass: base16.eighties.mine
+colorSpaceName: sRGB
+uuid: 36594751-36ac-443a-9f2f-111b815085ca
+gutterSettings:
+  background: '#393939'
+  divider: '#393939'
+  foreground: '#747369'
+  selectionBackground: '#515151'
+  selectionForeground: '#a09f93'
+settings:
+- settings:
+    background: '#2d2d2d'
+    caret: '#d3d0c8'
+    foreground: '#d3d0c8'
+    invisibles: '#747369'
+    lineHighlight: '#393939'
+    selection: '#515151'
+- name: Comments
+  scope: comment
+  settings:
+    foreground: '#747369'
+
+- name: Keywords
+  scope: keyword
+  settings:
+    foreground: '#cc99cc'
+
+- name: Storage
+  scope: storage
+  settings:
+    foreground: '#cc99cc'
+- name: Storage Type
+  scope: storage.type
+  settings:
+    fontStyle: italic
+- name: Storage Other
+  scope: storage.other
+  settings:
+    fontStyle: italic
+    foreground: '#d3d0c8'
+
+- name: Support Functions
+  scope: support.function
+  settings:
+    fontStyle: 'italic'
+    foreground: '#66cccc'
+- name: Any Methods
+  scope: support.function.any-method
+  settings:
+    fontStyle: 'normal'
+    foreground: '#66cccc'
+- name: Any Functions
+  scope: variable.function.any
+  settings:
+    foreground: '#d3d0c8'
+    fontStyle: 'italic'
+
+- name: Library constant
+  scope: support.constant
+  settings:
+    fontStyle: 'italic'
+    foreground: '#99cc99'
+- name: Library variable
+  scope: support.variable
+  settings:
+    fontStyle: 'italic'
+    # foreground: '#f2777a'
+
+- name: Constants
+  scope: constant
+  settings:
+    foreground: '#f99157'
+
+- name: Variables
+  scope: variable
+  settings:
+    fontStyle: 'italic'
+    foreground: '#f2777a'
+# - name: Language Variables
+#   scope: variable.language
+#   settings:
+#     fontStyle: 'normal'
+#     foreground: '#f2777a'
+- name: Language Variables
+  scope: variable.language
+  settings:
+    fontStyle: 'italic'
+    foreground: '#d3d0c8'
+- name: Other Variables
+  scope: variable.other
+  settings:
+    fontStyle: 'normal'
+    foreground: '#d3d0c8'
+- name: Function parameters
+  scope: variable.parameter
+  settings:
+    fontStyle: italic
+    foreground: '#f2777a'
+- name: Variable declaration
+  scope: variable.declaration
+  settings:
+    fontStyle: 'normal'
+    # fontStyle: 'italic'
+    foreground: '#d3d0c8'
+- name: Variable fake_parameter
+  scope: variable.fake_parameter
+  settings:
+    # fontStyle: 'normal'
+    fontStyle: 'italic'
+    foreground: '#d3d0c8'
+- name: Function Variable
+  scope: variable.function
+  settings:
+    fontStyle: 'normal'
+    foreground: '#66cccc'
+- name: Type Variable
+  scope: variable.type
+  settings:
+    fontStyle: 'italic'
+    foreground: '#d3d0c8'
+
+
+- name: Punctuation
+  scope: punctuation
+  settings:
+    # foreground: '#888782'
+    foreground: '#747369'
+    fontStyle: 'normal'
+- name: Punctuation Visible
+  scope: 
+    punctuation.definition.string, 
+    punctuation.definition.array, 
+    punctuation.definition.object,
+    punctuation.definition.class,
+    punctuation.definition.variable,
+    punctuation.definition.initializer,
+    punctuation.initializer,
+    punctuation.arguments,
+    punctuation.parameters,
+    punctuation.rest-parameter,
+    punctuation.visible,
+    punctuation.section.quoted
+  # punctuation.destructuring
+  settings:
+    # foreground: '#918F8A'
+    foreground: '#a09f93'
+
+
+- name: Punctuation
+  scope: punctuation.section.list
+  settings:
+    # foreground: '#a09f93'
+    foreground: '#918F8A'
+    # foreground: '#807F7B'
+    # foreground: '#888782'
+    fontStyle: 'normal'
+
+
+# - name: Punctuation
+#   scope: meta.quoted punctuation.section.list
+#   settings:
+#     foreground: '#747369'
+#     fontStyle: 'normal'
+
+
+- name: Delimiter
+  scope: meta.delimiter
+  settings:
+    foreground: '#747369'
+    fontStyle: 'normal'
+
+- name: Strings
+  scope: string
+  settings:
+    foreground: '#99cc99'
+
+- name: Function Names
+  scope: entity.name.function
+  settings:
+    # fontStyle: normal
+    foreground: '#6699cc'
+
+- name: Classes
+  scope: entity.name.class, entity.name.type.class, entity.name.type.instance
+  settings:
+    foreground: '#ffcc66'
+    fontStyle: 'normal'
+
+- name: Inherited Classes
+  scope: entity.other.inherited-class
+  settings:
+    foreground: '#99cc99'
+
+- name: Support Class
+  scope: support.class
+  # settings:
+    # foreground: '#ffcc66'
+
+- name: Language Class
+  scope: support.class.language
+  settings:
+    fontStyle: 'italic'
+
+- name: Property names
+  scope: entity.name.property, support.other.property-name
+  settings:
+    fontStyle: 'normal'
+    foreground: '#99cc99'
+
+- name: Tags
+  scope: entity.name.tag
+  settings:
+    foreground: '#f2777a'
+
+- name: Attributes
+  scope: entity.other.attribute-name
+  settings:
+    foreground: '#f99157'
+- name: Attribute IDs
+  scope: entity.other.attribute-name.id, entity.other.attribute-name.id punctuation.definition.entity
+  settings:
+    foreground: '#6699cc'
+
+- name: CSS Property Name
+  scope: support.type.property-name
+  settings:
+    # foreground: '#cc99cc'
+    fontStyle: 'italic'
+- name: CSS Vendor Prefix
+  scope: support.type.vendor-prefix
+  # settings:
+    # foreground: '#cc99cc'
+    # fontStyle: 'italic'
+
+- name: pseudo class
+  scope: entity.other.pseudo-class
+  settings:
+    foreground: '#cc99cc'
+    fontStyle: 'italic'
+
+- name: pseudo element
+  scope: entity.other.pseudo-element
+  settings:
+    foreground: '#cc99cc'
+    # fontStyle: 'italic'
+
+- name: unit
+  scope: keyword.other.unit
+  settings:
+    foreground: '#f99157'
+
+- name: class attribute-name
+  scope: entity.other.attribute-name.class
+  settings:
+    foreground: '#ffcc66'
+
+
+- name: Normal
+  scope: meta.normal
+  settings:
+    fontStyle: 'normal'
+    foreground: '#d3d0c8'
+
+# - name: Test
+#   scope: meta.statement.var.js
+#   settings: 
+#     background: '#515151'
+
+- name: Test
+  scope: invalid.illegal.identifier
+  settings: 
+    background: '#515151'
+
+- name: Jinja2
+  scope: entity.other.jinja2
+  settings:
+    foreground: '#f2777a'
+    
+- name: brace
+  scope: meta.brace
+  settings:
+    foreground: '#747369'
+    fontStyle: 'normal'
+
+
+
+- name: variable.object
+  scope: variable.object
+  settings:
+    foreground: '#d3d0c8'
+    fontStyle: 'normal'
+
+- name: support.variable.property
+  scope: support.variable.property
+  settings:
+    foreground: '#d3d0c8'
+    fontStyle: 'normal'
+
+- name: keyword.operator.type
+  scope: keyword.operator.type
+  settings:
+    foreground: '#747369'
+    fontStyle: 'normal'
+
+
+- name: keyword.operator.type.annotation
+  scope: keyword.operator.type.annotation
+  settings:
+    foreground: '#747369'
+    fontStyle: 'normal'
+
+- name: entity.name.type
+  scope: entity.name.type
+  settings:
+    foreground: '#cc99cc'
+    fontStyle: 'italic'
+
+- name: support.type.primitive
+  scope: support.type.primitive
+  settings:
+    foreground: '#cc99cc'
+    fontStyle: 'italic'
+
+- name: support.type.builtin
+  scope: support.type.builtin
+  settings:
+    foreground: '#cc99cc'
+    fontStyle: 'italic'
+
+- name: entity.name.function.ts
+  scope: entity.name.function.ts
+  settings:
+    foreground: '#66cccc'
+    fontStyle: 'normal'
+
+- name: entity.name.function.ts
+  scope: meta.definition.function.ts entity.name.function.ts, meta.definition.method.ts entity.name.function.ts
+  settings:
+    foreground: '#6699cc'
+    fontStyle: 'normal'
+
+- name: regexp anchors
+  scope: entity.other.control.anchors
+  settings:
+    foreground: '#cc99cc'
+    fontStyle: 'italic'
