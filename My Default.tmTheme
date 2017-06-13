@@ -675,6 +675,19 @@
 				<string>#cc99cc</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>support.operator.quantifier</string>
+			<key>scope</key>
+			<string>support.operator.quantifier</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#cc99cc</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>36594751-36ac-443a-9f2f-111b815085ca</string>

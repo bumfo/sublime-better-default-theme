@@ -346,3 +346,9 @@ settings:
   settings:
     foreground: '#cc99cc'
     fontStyle: 'italic'
+
+- name: support.operator.quantifier
+  scope: support.operator.quantifier
+  settings:
+    foreground: '#cc99cc'
+    fontStyle: 'italic'
