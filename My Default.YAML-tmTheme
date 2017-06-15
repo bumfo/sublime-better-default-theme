@@ -352,3 +352,9 @@ settings:
   settings:
     foreground: '#cc99cc'
     fontStyle: 'italic'
+
+- name: meta.initializer-list.field
+  scope: meta.initializer-list.field
+  settings:
+    foreground: '#d3d0c8'
+    fontStyle: 'italic'

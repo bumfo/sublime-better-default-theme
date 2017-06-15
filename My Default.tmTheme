@@ -688,6 +688,19 @@
 				<string>#cc99cc</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>meta.initializer-list.field</string>
+			<key>scope</key>
+			<string>meta.initializer-list.field</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#d3d0c8</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>36594751-36ac-443a-9f2f-111b815085ca</string>
