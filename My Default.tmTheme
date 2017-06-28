@@ -292,7 +292,7 @@
 			<key>name</key>
 			<string>Punctuation Visible</string>
 			<key>scope</key>
-			<string>punctuation.definition.string, punctuation.definition.array, punctuation.definition.object, punctuation.definition.class, punctuation.definition.variable, punctuation.definition.initializer, punctuation.initializer, punctuation.arguments, punctuation.parameters, punctuation.rest-parameter, punctuation.visible, punctuation.section.quoted</string>
+			<string>punctuation.definition.string, punctuation.definition.array, punctuation.definition.object, punctuation.definition.class, punctuation.definition.variable, punctuation.definition.initializer, punctuation.definition.decorator, punctuation.definition.literal.array, punctuation.initializer, punctuation.arguments, punctuation.parameters, punctuation.rest-parameter, punctuation.visible, punctuation.section.quoted</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

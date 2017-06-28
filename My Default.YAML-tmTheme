@@ -136,6 +136,8 @@ settings:
     punctuation.definition.class,
     punctuation.definition.variable,
     punctuation.definition.initializer,
+    punctuation.definition.decorator,
+    punctuation.definition.literal.array,
     punctuation.initializer,
     punctuation.arguments,
     punctuation.parameters,
