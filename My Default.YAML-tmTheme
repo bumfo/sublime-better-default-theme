@@ -360,3 +360,8 @@ settings:
   settings:
     foreground: '#d3d0c8'
     fontStyle: 'italic'
+
+- name: meta.vue.v-bind
+  scope: meta.vue.v-bind
+  settings:
+    fontStyle: 'italic'

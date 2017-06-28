@@ -701,6 +701,17 @@
 				<string>#d3d0c8</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>meta.vue.v-bind</string>
+			<key>scope</key>
+			<string>meta.vue.v-bind</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>36594751-36ac-443a-9f2f-111b815085ca</string>
