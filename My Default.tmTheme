@@ -292,11 +292,24 @@
 			<key>name</key>
 			<string>Punctuation Visible</string>
 			<key>scope</key>
-			<string>punctuation.definition.string, punctuation.definition.array, punctuation.definition.object, punctuation.definition.class, punctuation.definition.variable, punctuation.definition.initializer, punctuation.definition.decorator, punctuation.definition.literal.array, punctuation.initializer, punctuation.arguments, punctuation.parameters, punctuation.rest-parameter, punctuation.visible, punctuation.section.quoted</string>
+			<string>punctuation.definition.string, punctuation.definition.array, punctuation.definition.object, punctuation.definition.class, punctuation.definition.variable, punctuation.definition.initializer, punctuation.definition.decorator, punctuation.initializer, punctuation.arguments, punctuation.parameters, punctuation.rest-parameter, punctuation.visible, punctuation.section.quoted</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#a09f93</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Punctuation Literal</string>
+			<key>scope</key>
+			<string>punctuation.definition.literal</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
+				<key>foreground</key>
+				<string>#918F8A</string>
 			</dict>
 		</dict>
 		<dict>

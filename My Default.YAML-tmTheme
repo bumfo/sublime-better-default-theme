@@ -137,7 +137,6 @@ settings:
     punctuation.definition.variable,
     punctuation.definition.initializer,
     punctuation.definition.decorator,
-    punctuation.definition.literal.array,
     punctuation.initializer,
     punctuation.arguments,
     punctuation.parameters,
@@ -145,9 +144,21 @@ settings:
     punctuation.visible,
     punctuation.section.quoted
   # punctuation.destructuring
+  # punctuation.definition.literal.array,
+  # punctuation.definition.literal.object,
   settings:
     # foreground: '#918F8A'
     foreground: '#a09f93'
+
+- name: Punctuation Literal
+  scope: punctuation.definition.literal
+  settings:
+    # foreground: '#a09f93'
+    foreground: '#918F8A'
+    # foreground: '#807F7B'
+    # foreground: '#888782'
+    fontStyle: 'normal'
+
 
 
 - name: Punctuation
