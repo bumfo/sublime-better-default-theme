@@ -619,8 +619,6 @@
 			<dict>
 				<key>fontStyle</key>
 				<string>italic</string>
-				<key>foreground</key>
-				<string>#cc99cc</string>
 			</dict>
 		</dict>
 		<dict>

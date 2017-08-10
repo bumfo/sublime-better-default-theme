@@ -327,7 +327,7 @@ settings:
 - name: entity.name.type
   scope: entity.name.type
   settings:
-    foreground: '#cc99cc'
+    # foreground: '#cc99cc'
     fontStyle: 'italic'
 
 - name: support.type.primitive
